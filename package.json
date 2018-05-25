@@ -1,0 +1,21 @@
+{
+  "name": "protoutils",
+  "version": "0.0.1",
+  "author": {
+    "name": "Yusoo",
+    "email": "yusoo@qq.com"
+  },
+  "description": "prototype utils",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yusoo/protoutils.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "eslint": "eslint src"
+  },
+  "main": "src/index.js"
+}
