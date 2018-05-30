@@ -8,6 +8,10 @@
 // 	doc.addEventListener('DOMContentLoaded', recalc);
 // })(document, window);
 
+if (!window.location.origin) {
+  window.location.origin = window.location.protocol + '//' + window.location.host
+}
+
 if (!HTMLCanvasElement.prototype.toBlob) {
   Object.defineProperty(HTMLCanvasElement.prototype, 'toBlob', {
     value(callback, type, quality) {
