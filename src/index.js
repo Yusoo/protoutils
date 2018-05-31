@@ -1,13 +1,3 @@
-// (function (doc, win) {
-// 	const docEl     = doc.documentElement;
-// 	const resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
-// 	const recalc    = function() {
-// 		docEl.style.fontSize = docEl.clientWidth / 6.4 + 'px';
-// 	};
-// 	win.addEventListener(resizeEvt, recalc);
-// 	doc.addEventListener('DOMContentLoaded', recalc);
-// })(document, window);
-
 if (!window.location.origin) {
   window.location.origin = window.location.protocol + '//' + window.location.host
 }
