@@ -71,8 +71,7 @@ export function round(num, len = 0) {
 
 // 计算百分比：n分子，d分母，len最长小数位数
 export function percent(n, d, len = 0) {
-  const percent = round(n / d * 100, len)
-  return percent ? percent : ''
+  return round(n / d * 100, len)
 }
 
 // i:下标从0开始，total:总数从1开始
