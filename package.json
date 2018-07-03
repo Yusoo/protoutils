@@ -1,6 +1,6 @@
 {
   "name": "protoutils",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": {
     "name": "Yusoo",
     "email": "yusoo@qq.com"
@@ -15,7 +15,14 @@
   ],
   "license": "MIT",
   "scripts": {
+    "dist": "rollup -c",
     "eslint": "eslint src"
   },
-  "main": "src/index.js"
+  "main": "dist/index.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^0.62.0",
+    "rollup-plugin-babel": "^3.0.7"
+  }
 }
