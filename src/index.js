@@ -1,3 +1,5 @@
+import 'custom-event-polyfill'
+
 if (!window.location.origin) {
   window.location.origin = window.location.protocol + '//' + window.location.host
 }
