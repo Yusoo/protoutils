@@ -1,2 +1,2 @@
 # protoutils
-Some simple prototypes and tool functions
+Polyfill and prototype functions

@@ -5,7 +5,7 @@
     "name": "Yusoo",
     "email": "yusoo@qq.com"
   },
-  "description": "prototype utils",
+  "description": "polyfill and prototype utils",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yusoo/protoutils.git"
