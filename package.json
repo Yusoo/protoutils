@@ -20,12 +20,12 @@
   },
   "main": "dist/index.js",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "rollup": "^0.62.0",
-    "rollup-plugin-babel": "^3.0.7"
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3"
   },
   "dependencies": {
-    "custom-event-polyfill": "^0.3.0"
+    "custom-event-polyfill": "^1.0.6"
   }
 }
