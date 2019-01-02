@@ -6,7 +6,7 @@ if (!window.location.origin) {
 
 if (!HTMLCanvasElement.prototype.toBlob) {
   Object.defineProperty(HTMLCanvasElement.prototype, 'toBlob', {
-    value(callback, type, quality) {
+    value (callback, type, quality) {
       const binStr = atob(this.toDataURL(type, quality).split(',')[1])
       const len = binStr.length
       const arr = new Uint8Array(len)
@@ -57,34 +57,33 @@ if (!Array.prototype.keysum) {
 }
 
 // 判断对象类型
-export function getType(o) {
+export function getType (o) {
   return Object.prototype.toString.call(o).slice(8, -1)
 }
 
 // 包括Max Min
-export function random(min, max) {
+export function random (min, max) {
   return parseInt(min + Math.random() * (max - min + 1), 10)
 }
 
 // PHP round
-export function round(num, len = 0) {
+export function round (num, len = 0) {
   return Math.round(num * Math.pow(10, len)) / Math.pow(10, len)
 }
 
 // 计算百分比：n分子，d分母，len最长小数位数
-export function percent(n, d, len = 0) {
+export function percent (n, d, len = 0) {
   return round(n / d * 100, len)
 }
 
 // i:下标从0开始，total:总数从1开始
-export function indexPos(i, total) {
+export function indexPos (i, total) {
   let index = i % total
   if (index < 0) {
     index = index + total
   }
   return index
 }
-
 
 export default {
   getType,
