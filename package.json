@@ -1,6 +1,6 @@
 {
   "name": "protoutils",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": {
     "name": "Yusoo",
     "email": "yusoo@qq.com"
@@ -20,12 +20,14 @@
   },
   "main": "dist/index.js",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "rollup": "^0.67.4",
-    "rollup-plugin-babel": "^4.2.0"
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.4.0",
+    "rollup": "^2.19.0",
+    "rollup-plugin-babel": "^4.4.0"
   },
   "dependencies": {
-    "custom-event-polyfill": "^1.0.6"
+    "custom-event-polyfill": "^1.0.7"
   }
 }
